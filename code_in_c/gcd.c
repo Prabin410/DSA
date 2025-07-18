@@ -8,9 +8,9 @@
 }
 int main()
 {
-    int result;
-    result=GCD(6,8);
-    printf("%d",result);
+    int result_is;
+    result_is=GCD(6,8);
+    printf("%d",result_is);
 
     return 0;
 }

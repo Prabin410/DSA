@@ -35,7 +35,7 @@ int main() {
 
     do {
         printf("\n1. PUSH\n2. POP\n3. PEEK\n4. EXIT\n");
-        printf("Enter your choice: ");
+        printf("Enter yours choice: ");
         scanf("%d", &choice);
 
         switch (choice) {
