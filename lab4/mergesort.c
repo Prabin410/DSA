@@ -55,7 +55,7 @@ int main()
     clock_t start, end;
     double time_taken;
 
-    printf("Enter the number of elements: ");
+    printf("Enter  the number of elements: ");
     scanf("%d", &n);
 
     for (i = 0; i < n; i++)
