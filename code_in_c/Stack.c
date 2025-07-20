@@ -34,8 +34,8 @@ int main() {
     S.TOS = -1;
 
     do {
-        printf("\n1. PUSH\n2. POP\n3. PEEK\n4. EXIT\n");
-        printf("Enter yours choice: ");
+        printf("\n1. PUSH\n2 POP\n3. PEEK\n4. EXIT\n");
+        printf("Enter yourss choice: ");
         scanf("%d", &choice);
 
         switch (choice) {
@@ -62,7 +62,7 @@ int main() {
                 if (isEmpty(&S)) {
                     printf("STACK IS EMPTY\n");
                 } else {
-                    printf("%d is at the TOP\n", peek(&S));
+                    printf("%d is at  TOP\n", peek(&S));
                 }
                 break;
 
