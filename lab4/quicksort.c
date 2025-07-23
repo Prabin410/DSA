@@ -51,7 +51,7 @@ int main(){
     int A[MAX],n,i;
     clock_t start, end;
     double diff;
-    printf("How many elements: ");
+    printf("How many element: ");
     scanf("%d",&n);
 
     for(i=0;i<n;i++)

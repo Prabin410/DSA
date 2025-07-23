@@ -3,6 +3,6 @@ def tail(n,a):
         return a
     else:
         return tail(n-1,a*n)
-n=int(input("please enter  value of n: "))
+n=int(input("please enter the  value of n: "))
 result=tail(n,1)
 print(f"the Tail recursive is : {result}")
