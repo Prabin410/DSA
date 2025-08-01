@@ -40,6 +40,7 @@ void insert_at_end(int element)
     {
         last->next=NewNode;
         last=NewNode;
+        
         printf("%d WAS INSERTED AT END\n",last->data);
     }
 
@@ -197,21 +198,13 @@ void display()
 }
 int main()
 {
-    
-    insert_at_beginning(3);
+     insert_at_end(5);
+    insert_at_end(2);
+    insert_at_end(3);
+    insert_at_end(4);
+   
   
     display();
-    insert_at_beginning(4);
-    display();
-    insert_at_beginning(5);
-    display();
-    insert_at_specificposition(6,2);
-    display();
-    
-
-
-
-
 
 
 
