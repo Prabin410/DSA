@@ -10,7 +10,7 @@ void selection_sort(int A[], int n)
         least = A[i];
         pos = i;
     
-    for (j = i + 1; j < n; j++)
+    for (j = i + 1; j < n; j++) // adjacent number compare garna hunxa
     {
         if (A[j] < least)
         {
