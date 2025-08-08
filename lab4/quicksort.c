@@ -9,7 +9,7 @@ int x = l, y = r, pivot = A[l], temp;
 while(x<y)
 {
     
-    while (A[x] <= pivot && x <= r)
+    while (A[x] <= pivot && x <= r)   
         x++;
     while (A[y] > pivot && y >= 1)
         y--;

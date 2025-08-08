@@ -73,38 +73,30 @@ Node *leftRotate(Node *x)
 
     return y;
 }
-Node* leftRightRotate(Node* z) {
+Node *leftRightRotate(Node *z)
+{
     z->left = rightRotate(z->left);
     return rightRotate(z);
 }
-Node* rightLeftRotate(Node* z) {
+Node *rightLeftRotate(Node *z)
+{
     z->right = leftRotate(z->right);
     return leftRotate(z);
     printf("Right Left Rotate\n");
 }
-int main(){
+int main()
+{
 
-
-    struct Node* root = NULL;
+    struct Node *root = NULL;
 
     root = createNode(10, NULL);
     root->left = createNode(5, root);
     root->right = createNode(20, root);
-   
-printf("Root: %d\n", root->data);
+    root->right->left = createNode(18, root->right);
+    root->right->right = createNode(23, root->right);
+
+    printf("Root: %d\n", root->data);
     printf("Left Child: %d\n", root->left->data);
-    printf("Right Child: %d\n", root->right->data); 
+    printf("Right Child: %d\n", root->right->data);
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-    
